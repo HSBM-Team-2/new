@@ -1,0 +1,28 @@
+.sidebar {
+    position: fixed;
+    top: 56px; /* Adjust according to your navbar height */
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f8f9fa; /* Change to your preferred color */
+    padding-top: 20px;
+  }
+  
+  .sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none; /* Hide sidebar on smaller screens or adjust as needed */
+    }
+  }
+  
